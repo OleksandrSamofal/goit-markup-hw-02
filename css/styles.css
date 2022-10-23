@@ -82,18 +82,17 @@ button {
 .header-mail:focus {
   color: var(--accent-color);
 }
-.button {
+.button-hero {
   color: var(--main-white-color);
   background-color: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  font-family: inherit;
   border-radius: 4px;
   border: transparent;
 }
 
-.button-list {
+.button.pointer {
   color: var(--main-text-color);
   background-color: var(--main-bgc-grey);
   font-weight: 500;
@@ -106,15 +105,18 @@ button {
   text-align: center;
 }
 
-.button-list:hover,
-.button-list:focus {
+.button:hover,
+.button:focus {
   background-color: var(--accent-color);
   color: var(--main-white-color);
 }
 
 .section-one {
-  color: var(--main-white-color);
   background-color: var(--secondary-bgc);
+}
+
+.title-one {
+  color: var(--main-white-color);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -150,9 +152,9 @@ button {
 
 .card-title {
   color: var(--main-text-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
 
 .card-description {
@@ -161,16 +163,26 @@ button {
   line-height: 1.18;
 }
 
+.link-hero {
+  text-decoration: none;
+}
+
 .footer-adress {
   color: var(--main-white-color);
   text-decoration: none;
+  font-weight: 400;
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 
 .footer-contact {
   color: var(--secondary-accent-color);
   text-decoration: none;
+  font-weight: 400;
   font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
 }
 footer {
   background-color: var(--secondary-bgc);
