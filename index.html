@@ -18,13 +18,13 @@
     <header>
       <a href="/" class="logo"> <span class="logo-color">Web</span>Studio </a>
       <nav>
-        <ul>
-          <li><a class="link-header" href="#">Студія</a></li>
+        <ul class="site-nav list">
+          <li><a class="link-header current" href="./index.html">Студія</a></li>
           <li><a class="link-header" href="./portfolio.html">Портфоліо</a></li>
           <li><a class="link-header" href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="list">
         <li>
           <a class="header-mail" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -44,35 +44,35 @@
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button class="button" type="button">Замовити послугу</button>
+        <button class="button pointer" type="button">Замовити послугу</button>
       </section>
       <!-- section 2 Наші переваги -->
       <section>
         <h2 hidden>Особливості</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-            <p>
+            <h3 class="section-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p class="section-two">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
           <li>
-            <h3>ПУНКТУАЛЬНІСТЬ</h3>
-            <p>
+            <h3 class="section-title">ПУНКТУАЛЬНІСТЬ</h3>
+            <p class="section-two">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
           <li>
-            <h3>ПЛАНУВАННЯ</h3>
-            <p>
+            <h3 class="section-title">ПЛАНУВАННЯ</h3>
+            <p class="section-two">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
           <li>
-            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-            <p>
+            <h3 class="section-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p class="section-two">
               Значимість цих проблем настільки очевидна, що реалізація планових
               завдань.
             </p>
@@ -81,8 +81,8 @@
         <!-- section 3 Чим ми займаємося -->
       </section>
       <section>
-        <h2>Чим ми займаємося</h2>
-        <ul>
+        <h2 class="section-three">Чим ми займаємося</h2>
+        <ul class="list">
           <li>
             <img src="./image/box1.jpg" alt="photo our work1" width="370" />
           </li>
@@ -95,9 +95,9 @@
         </ul>
       </section>
       <!-- section 4 Наша команда -->
-      <section>
-        <h2>Наша команда</h2>
-        <ul class="cards">
+      <section class="secondary-section">
+        <h2 class="section-four">Наша команда</h2>
+        <ul class="cards list">
           <li class="card">
             <img
               class="card-image"
@@ -145,12 +145,26 @@
     </main>
     <!-- footer Контакти -->
     <footer>
-      <a href="#" class="logo"><span class="logo-color">Web</span>Studio</a>
+      <a href="#" class="logo-footer"
+        ><span class="logo-color">Web</span>Studio</a
+      >
       <address>
-        <ul>
-          <li><a href="#">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list">
+          <li>
+            <a class="footer-adress" href="#"
+              >м. Київ, пр-т Лесі Українки, 26</a
+            >
+          </li>
+          <li>
+            <a class="footer-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="footer-contact" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>
